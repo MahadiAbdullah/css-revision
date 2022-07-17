@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Property</title>
+    <style>
+        :root {
+            --dark-border: 2px solid black;
+            --main-color: slateblue;
+            --border-color: slateblue;
+            --background-color: slateblue;
+        }
+
+        h1 {
+            color: var(--main-color);
+
+        }
+
+        p {
+            color: var(--main-color);
+
+        }
+
+        h6 {
+            color: var(--main-color);
+        }
+
+        footer {
+            border: var(--main-color)
+        }
+
+        h2 {
+            border: 2px solid var(--border-color);
+            color: slateblue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1> I am exploring Custom Properties</h1>
+        <p>Welcome To My Website</p>
+
+    </header>
+    <main>
+        <h2>My awesome contaient</h2>
+        <h6>My tiny heading </h6>
+    </main>
+    <footer>jani nah</footer>
+
+</body>
+
+</html>
